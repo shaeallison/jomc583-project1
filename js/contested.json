@@ -5,9 +5,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": [
-        "http://www.contactingthecongress.org/pictures/ALSR.jpg"
-        ],
+        "images": "../img/Richard_Shelby.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -50,11 +48,11 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Lisa_Murkowski.jpg",
         "bio": ""
     }],
     "candidates": [{
-        "name": "",
+        "name": "No opposing candidates",
         "party": "",
         "images": "",
         "bio": ""
@@ -66,7 +64,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/John_McCain.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -97,7 +95,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/John_Boozman.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -128,7 +126,7 @@
         "party": "Democrat",
         "status": "Contested",
         "running": "no",
-        "images": "",
+        "images": "../img/Barbara_Boxer.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -199,7 +197,7 @@
         "party": "Democrat",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Michael_Bennet.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -265,7 +263,7 @@
         "party": "Democrat",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Richard_Blumenthal.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -281,7 +279,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "no",
-        "images": "",
+        "images": "../img/Marco_Rubio.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -342,7 +340,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Johnny_Isakson.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -358,7 +356,7 @@
         "party": "Democrat",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Brian_Schatz.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -374,7 +372,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Mike_Crapo.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -390,7 +388,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Mark_Kirk.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -426,7 +424,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "no",
-        "images": "",
+        "images": "../img/Daniel_Coats.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -452,7 +450,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Chuck_Grassley.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -478,7 +476,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Jerry_Moran.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -494,7 +492,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Rand_Paul.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -550,7 +548,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "no",
-        "images": "",
+        "images": "../img/David_Vitter.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -596,7 +594,7 @@
         "party": "Democrat",
         "status": "Contested",
         "running": "no",
-        "images": "",
+        "images": "../img/Barbara_Mikulski.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -762,7 +760,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Roy_Blunt.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -788,7 +786,7 @@
         "party": "Democrat",
         "status": "Contested",
         "running": "no",
-        "images": "",
+        "images": "../img/Harry_Reid.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -809,7 +807,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Kelly_Ayotte.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -825,7 +823,7 @@
         "party": "Democrat",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Chuck_Schumer.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -841,7 +839,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Richard_Burr.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -892,7 +890,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/John_Hoeven.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -908,7 +906,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Rob_Portman.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -954,7 +952,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/James_Lankford.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -970,7 +968,7 @@
         "party": "Democrat",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Ron_Wyden.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -986,7 +984,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Patrick_Toomey.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -1017,7 +1015,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Tim_Scott.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -1033,7 +1031,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/John_Thune.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -1049,7 +1047,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Mike_Lee.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -1065,7 +1063,7 @@
         "party": "Democrat",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Patrick_Leahy.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -1081,7 +1079,7 @@
         "party": "Democrat",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Patty_Murray.jpg",
         "bio": ""
     }],
     "candidates": [{
@@ -1097,7 +1095,7 @@
         "party": "Republican",
         "status": "Contested",
         "running": "yes",
-        "images": "",
+        "images": "../img/Ron_Johnson.jpg",
         "bio": ""
     }],
     "candidates": [{

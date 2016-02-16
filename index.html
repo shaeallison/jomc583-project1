@@ -18,9 +18,9 @@
         <div class="container" ng-controller="BaseController as base">
             
 
-        <h1>2016 &nbsp;Senator &nbsp;Race</h1>
+        <h1>2016 Senator Race</h1>
         <div class="row">
-            <div class="col-lg-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus lectus sed maximus dignissim. Vestibulum ante ipsum primis
+            <div class="col-lg-9 intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus lectus sed maximus dignissim. Vestibulum ante ipsum primis
                 in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam in lobortis tortor, ut dictum velit. Sed urna diam, tincidunt a
                 pretium eget, consectetur nec urna. Curabitur diam arcu, convallis ac neque vitae, facilisis consectetur lacus. Nulla ultricies fringilla
                 mi, at consectetur magna finibus quis. Mauris libero arcu, faucibus ac felis ut, sodales condimentum arcu. Integer fermentum eros eu
@@ -35,31 +35,70 @@
         <h2>Contested Senators</h2>
         <div class="row" ng-controller="StatesController as stateCtrl">
             
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 playercard" ng-repeat="state in stateCtrl.states | filter: display">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 playercard" ng-repeat="state in stateCtrl.states | filter: display">
             <div class="cardcontents">
             <div class="statename">{{state.state}}</div>
                             
             <div ng-repeat="senators in state.senators">  
-                <img class="playerpics" ng-src="{{senators.images[0]}}"/><div class="playername">{{senators.name}}</div>
-                <div class="party"><strong>Party:</strong>???</div>
-                <br/>
-                <div><strong>Running for reelection:</strong> y/n</div>
-                <div class="playerbio"><strong>Bio:</strong> Biographical info and platform points, etc.</div>
+                <img class="playerpics" ng-src="{{senators.images}}"/>
+                <div class="playername">{{senators.name}}</div>
+                <div class="row">
+                    <div class="party"><strong>{{senators.party}}</strong></div>
+                    <br/>
+                    <div><strong>Running in 2016:</strong> {{senators.running}}</div>
+                    <div class="playerbio"><a href="">View Bio</a></div>
+                </div>
             </div>
-                
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                            <th class="running">Candidates Running</th>
+                            <th class="running"><a href="#" >View Candidates Running</a></th>
                         </tr>
                     </thead>
-                        <tr ng-repeat="player in base.players">
-                            <td>Candidate Name | Party</td>
+                        <tr ng-repeat="candidates in state.candidates">
+                            <td>{{candidates.name + " | " + candidates.party}}</td>
                         </tr>
                 </table>
             </div>
         </div>
         <!-- end of cards -->
+        <!-- row design option -->
+        <div class="row">
+            <div class="col-xs-12" ng-repeat="state in stateCtrl.states | filter: display">
+            <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>State</th>
+                            <th>Senator</th>
+                            <th>Party</th>
+                            <th>Running</th>
+                            <th>Bio</th>
+                        </tr>
+                    </thead>
+                        <tr ng-repeat=" senators in state.senators">
+                            <td class="statename">{{state.state}}</td>
+                            <td class="playerpics"><img class="playerpics" ng-src="{{senators.images}}"/></td>
+                            <td>{{senators.party}}</td>
+                            <td>{{senators.running}}</td>
+                            <td> Sed urna diam, tincidunt a pretium eget, consectetur nec urna. Curabitur diam arcu,
+                            convallis ac neque vitae, facilisis consectetur lacus. Nulla ultricies fringilla mi, at
+                            consectetur magna finibus quis. Mauris libero arcu, faucibus ac felis ut, sodales condimentum
+                            arcu. Integer fermentum eros eu tortor placerat porttitor.
+                            </td>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Candidates</th>
+                                    </tr>
+                                </thead>
+                                <tr ng-repeat="candidates in state.candidates">
+                                    <td>{{candidates.name + " | " + candidates.party}}</td>
+                                </tr>
+                            </table>
+                        </tr>
+            </table>
+            
+        </div>
 
         </div> <!--ctrl row close -->
         </div> <!-- container close -->

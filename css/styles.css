@@ -5,30 +5,35 @@
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
-    font-family: bebas;
+   
+}
+
+.row{
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 div.container.ng-scope{
     width: 100%;
 }
 
-div.introp{
-    width: 78%;
-    float: left;
-    display: block;
+div.intro{
+    padding-left: 0px;
 }
 
 .playercard{
     font: 8pt;
-    padding: 3px;
+}
+
+.col-lg-3.col-md-4.col-sm-6.col-xs-12.playercard.ng-scope{
+    padding: 5px;
 }
 
 .playerpics{
     float: left;
-    width: 100px;
-    height: 60px;
     padding-right: 5px;
-    padding-bottom: 5px
+    padding-bottom: 5px;
+    width: 125px;
 }
 
 .cardcontents{
@@ -37,7 +42,7 @@ div.introp{
 }
 
 .playername{
-    font-size: 12pt;
+    font-size: 16pt;
     font-weight: 500;
 }
 
@@ -53,7 +58,6 @@ div.introp{
 }
 
 .statename{
-    font-family: bebas;
     margin-top: 2px;
     font-size: 30px;
     padding-bottom: 10px;
@@ -79,13 +83,28 @@ div.introp{
     margin: auto;
 }
 
-img{
-    width: 150px;
-}
 
 div.input-group{
     float: right;
     overflow: auto;
     width: 200px;
     padding-bottom: 10px;
+}
+
+.animate-show {
+  line-height: 20px;
+  opacity: 1;
+  padding: 10px;
+  border: 1px solid black;
+  background: white;
+}
+
+.animate-show.ng-hide-add, .animate-show.ng-hide-remove {
+  transition: all linear 0.5s;
+}
+
+.animate-show.ng-hide {
+  line-height: 0;
+  opacity: 0;
+  padding: 0 10px;
 }
