@@ -46,16 +46,16 @@
                     <div class="party"><strong>{{senators.party}}</strong></div>
                     <br/>
                     <div><strong>Running in 2016:</strong> {{senators.running}}</div>
-                    <div class="playerbio"><a href="">View Bio</a></div>
+                    <div><a href="#" ng-click="showbio = !showbio">View Bio</a></div>
+                    <br/>
+                    <div class="playerbio" ng-show="showbio">add into JSON</div>
                 </div>
             </div>
                 <table class="table table-striped">
-                    <thead>
                         <tr>
-                            <th class="running"><a href="#" >View Candidates Running</a></th>
+                            <th class="running"><a href="#" ng-click="showlist = !showlist">Show Candidates</a></th>
                         </tr>
-                    </thead>
-                        <tr ng-repeat="candidates in state.candidates">
+                        <tr ng-show="showlist" ng-repeat="candidates in state.candidates">
                             <td>{{candidates.name + " | " + candidates.party}}</td>
                         </tr>
                 </table>
@@ -86,12 +86,8 @@
                             arcu. Integer fermentum eros eu tortor placerat porttitor.
                             </td>
                             <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th>Candidates</th>
-                                    </tr>
-                                </thead>
-                                <tr ng-repeat="candidates in state.candidates">
+                                <a ng-click="otherlist=!otherlist">Show Candidates</a>
+                                <tr ng-show="otherlist" ng-repeat="candidates in state.candidates">
                                     <td>{{candidates.name + " | " + candidates.party}}</td>
                                 </tr>
                             </table>

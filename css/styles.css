@@ -39,6 +39,7 @@ div.intro{
 .cardcontents{
     border: 1px solid #ddd;
     padding: 5px 10px 5px 10px;
+    height: 270px;
 }
 
 .playername{
@@ -108,3 +109,4 @@ div.input-group{
   opacity: 0;
   padding: 0 10px;
 }
+
