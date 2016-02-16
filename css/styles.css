@@ -1,0 +1,91 @@
+
+@font-face{
+    font-family: bebas;
+    src: url(fonts/bebas/BebasNeueRegular.otf);
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    font-family: bebas;
+}
+
+div.container.ng-scope{
+    width: 100%;
+}
+
+div.introp{
+    width: 78%;
+    float: left;
+    display: block;
+}
+
+.playercard{
+    font: 8pt;
+    padding: 3px;
+}
+
+.playerpics{
+    float: left;
+    width: 100px;
+    height: 60px;
+    padding-right: 5px;
+    padding-bottom: 5px
+}
+
+.cardcontents{
+    border: 1px solid #ddd;
+    padding: 5px 10px 5px 10px;
+}
+
+.playername{
+    font-size: 12pt;
+    font-weight: 500;
+}
+
+.playerbio{
+    padding-bottom: 5px;
+}
+
+.input-group.col-lg-3.carddisplay{
+    padding-bottom: 7px;
+    float: right;
+    overflow: auto;
+    padding-right: 18px;  
+}
+
+.statename{
+    font-family: bebas;
+    margin-top: 2px;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.currentsenator{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+
+.senatorsection{
+    width: 100%;
+}
+
+.table>thead>tr>th.running{
+    padding-left: 0px;
+}
+
+.playertable{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+img{
+    width: 150px;
+}
+
+div.input-group{
+    float: right;
+    overflow: auto;
+    width: 200px;
+    padding-bottom: 10px;
+}

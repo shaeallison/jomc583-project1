@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- angular -->
+        <script type="text/javascript" src="js/angular.js"></script>
+
+        <!-- script -->
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/states.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+        <!-- css -->
+        <link rel="stylesheet" href="css/bootstrap.css" />
+    </head>
+
+    <body ng-app="myApp">
+
+        <div class="container" ng-controller="BaseController as base">
+            
+
+        <h1>2016 &nbsp;Senator &nbsp;Race</h1>
+        <div class="row">
+            <div class="col-lg-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rhoncus lectus sed maximus dignissim. Vestibulum ante ipsum primis
+                in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam in lobortis tortor, ut dictum velit. Sed urna diam, tincidunt a
+                pretium eget, consectetur nec urna. Curabitur diam arcu, convallis ac neque vitae, facilisis consectetur lacus. Nulla ultricies fringilla
+                mi, at consectetur magna finibus quis. Mauris libero arcu, faucibus ac felis ut, sodales condimentum arcu. Integer fermentum eros eu
+                tortor placerat porttitor.
+            </div>
+            
+            <div class="input-group col-lg-3 carddisplay">
+                <input type="text" ng-model="display" class="form-control carddisplay" placeholder="Search" name="q">
+            </div>
+        </div>
+                   
+        <h2>Contested Senators</h2>
+        <div class="row" ng-controller="StatesController as stateCtrl">
+            
+        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 playercard" ng-repeat="state in stateCtrl.states | filter: display">
+            <div class="cardcontents">
+            <div class="statename">{{state.state}}</div>
+                            
+            <div ng-repeat="senators in state.senators">  
+                <img class="playerpics" ng-src="{{senators.images[0]}}"/><div class="playername">{{senators.name}}</div>
+                <div class="party"><strong>Party:</strong>???</div>
+                <br/>
+                <div><strong>Running for reelection:</strong> y/n</div>
+                <div class="playerbio"><strong>Bio:</strong> Biographical info and platform points, etc.</div>
+            </div>
+                
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th class="running">Candidates Running</th>
+                        </tr>
+                    </thead>
+                        <tr ng-repeat="player in base.players">
+                            <td>Candidate Name | Party</td>
+                        </tr>
+                </table>
+            </div>
+        </div>
+        <!-- end of cards -->
+
+        </div> <!--ctrl row close -->
+        </div> <!-- container close -->
+    </body>
+</html>
