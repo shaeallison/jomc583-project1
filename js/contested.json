@@ -1,5 +1,6 @@
 [{
     "state": "Alabama",
+    "id": "1",
     "senators": [{
         "name": "Richard Shelby",
         "party": "Republican",
@@ -43,6 +44,7 @@
     ]
 }, {
     "state": "Alaska",
+    "id": "2",
     "senators": [{
         "name": "Lisa Murkowski",
         "party": "Republican",
@@ -59,6 +61,7 @@
     }]
 }, {
     "state": "Arizona",
+    "id": "3",
     "senators": [{
         "name": "John McCain",
         "party": "Republican",
@@ -90,6 +93,7 @@
     }]
 }, {
     "state": "Arkansas",
+    "id": "4",
     "senators": [{
         "name": "John Boozman",
         "party": "Republican",
@@ -121,6 +125,7 @@
     }]
 }, {
     "state": "California",
+    "id": "5",
     "senators": [{
         "name": "Barbara Boxer",
         "party": "Democrat",
@@ -192,6 +197,7 @@
     }]
 }, {
     "state": "Colorado",
+    "id": "6",
     "senators": [{
         "name": "Michael Bennet",
         "party": "Democrat",
@@ -258,6 +264,7 @@
     }]
 }, {
     "state": "Connecticut",
+    "id": "7",
     "senators": [{
         "name": "Richard Blumenthal",
         "party": "Democrat",
@@ -274,6 +281,7 @@
     }]
 }, {
     "state": "Florida",
+    "id": "8",
     "senators": [{
         "name": "Marco Rubio",
         "party": "Republican",
@@ -335,6 +343,7 @@
     }]
 }, {
     "state": "Georgia",
+    "id": "9",
     "senators": [{
         "name": "Johnny Isakson",
         "party": "Republican",
@@ -344,13 +353,14 @@
         "bio": ""
     }],
     "candidates": [{
-        "name": "",
+        "name": "No opposing candidates",
         "party": "",
         "images": "",
         "bio": ""
     }]
 }, {
     "state": "Hawaii",
+    "id": "10",
     "senators": [{
         "name": "Brian Schatz",
         "party": "Democrat",
@@ -360,13 +370,14 @@
         "bio": ""
     }],
     "candidates": [{
-        "name": "",
+        "name": "No opposing candidates",
         "party": "",
         "images": "",
         "bio": ""
     }]
 }, {
     "state": "Idaho",
+    "id": "11",
     "senators": [{
         "name": "Mike Crapo",
         "party": "Republican",
@@ -376,13 +387,14 @@
         "bio": ""
     }],
     "candidates": [{
-        "name": "",
+        "name": "No opposing candidates",
         "party": "",
         "images": "",
         "bio": ""
     }]
 }, {
     "state": "Illinois",
+    "id": "12",
     "senators": [{
         "name": "Mark Kirk",
         "party": "Republican",
@@ -419,6 +431,7 @@
     }]
 }, {
     "state": "Indiana",
+    "id": "13",
     "senators": [{
         "name": "Daniel Coats",
         "party": "Republican",
@@ -445,6 +458,7 @@
     }]
 }, {
     "state": "Iowa",
+    "id": "14",
     "senators": [{
         "name": "Chuck Grassley",
         "party": "Republican",
@@ -471,6 +485,7 @@
     }]
 }, {
     "state": "Kansas",
+    "id": "15",
     "senators": [{
         "name": "Jerry Moran",
         "party": "Republican",
@@ -480,13 +495,14 @@
         "bio": ""
     }],
     "candidates": [{
-        "name": "",
+        "name": "No opposing candidates",
         "party": "",
         "images": "",
         "bio": ""
     }]
 }, {
     "state": "Kentucky",
+    "id": "16",
     "senators": [{
         "name": "Rand Paul",
         "party": "Republican",
@@ -543,6 +559,7 @@
     }]
 }, {
     "state": "Louisiana",
+    "id": "17",
     "senators": [{
         "name": "David Vitter",
         "party": "Republican",
@@ -589,6 +606,7 @@
     }]
 }, {
     "state": "Maryland",
+    "id": "18",
     "senators": [{
         "name": "Barbara Mikulski",
         "party": "Democrat",
@@ -755,6 +773,7 @@
     }]
 }, {
     "state": "Missouri",
+    "id": "19",
     "senators": [{
         "name": "Roy Blunt",
         "party": "Republican",
@@ -781,6 +800,7 @@
     }]
 }, {
     "state": "Nevada",
+    "id": "20",
     "senators": [{
         "name": "Harry Reid",
         "party": "Democrat",
@@ -802,6 +822,7 @@
     }]
 }, {
     "state": "New Hampshire",
+    "id": "21",
     "senators": [{
         "name": "Kelly Ayotte",
         "party": "Republican",
@@ -818,6 +839,7 @@
     }]
 }, {
     "state": "New York",
+    "id": "22",
     "senators": [{
         "name": "Charles Schumer",
         "party": "Democrat",
@@ -827,13 +849,14 @@
         "bio": ""
     }],
     "candidates": [{
-        "name": "",
+        "name": "No opposing candidates",
         "party": "",
         "images": "",
         "bio": ""
     }]
 }, {
     "state": "North Carolina",
+    "id": "23",
     "senators": [{
         "name": "Richard Burr",
         "party": "Republican",
@@ -885,6 +908,7 @@
     }]
 }, {
     "state": "North Dakota",
+    "id": "24",
     "senators": [{
         "name": "John Hoeven",
         "party": "Republican",
@@ -894,13 +918,14 @@
         "bio": ""
     }],
     "candidates": [{
-        "name": "",
+        "name": "No opposing candidates",
         "party": "",
         "images": "",
         "bio": ""
     }]
 }, {
     "state": "Ohio",
+    "id": "25",
     "senators": [{
         "name": "Rob Portman",
         "party": "Republican",
@@ -947,6 +972,7 @@
     }]
 }, {
     "state": "Oklahoma",
+    "id": "26",
     "senators": [{
         "name": "James Lankford",
         "party": "Republican",
@@ -956,13 +982,14 @@
         "bio": ""
     }],
     "candidates": [{
-        "name": "",
+        "name": "No opposing candidates",
         "party": "",
         "images": "",
         "bio": ""
     }]
 }, {
     "state": "Oregon",
+    "id": "27",
     "senators": [{
         "name": "Ron Wyden",
         "party": "Democrat",
@@ -979,6 +1006,7 @@
     }]
 }, {
     "state": "Pennsylvania",
+    "id": "28",
     "senators": [{
         "name": "Patrick Toomey",
         "party": "Republican",
@@ -1010,6 +1038,7 @@
     }]
 }, {
     "state": "South Carolina",
+    "id": "29",
     "senators": [{
         "name": "Tim Scott",
         "party": "Republican",
@@ -1019,13 +1048,14 @@
         "bio": ""
     }],
     "candidates": [{
-        "name": "",
+        "name": "No opposing candidates",
         "party": "",
         "images": "",
         "bio": ""
     }]
 }, {
     "state": "South Dakota",
+    "id": "30",
     "senators": [{
         "name": "John Thune",
         "party": "Republican",
@@ -1035,13 +1065,14 @@
         "bio": ""
     }],
     "candidates": [{
-        "name": "",
+        "name": "No opposing candidates",
         "party": "",
         "images": "",
         "bio": ""
     }]
 }, {
     "state": "Utah",
+    "id": "31",
     "senators": [{
         "name": "Mike Lee",
         "party": "Republican",
@@ -1051,13 +1082,14 @@
         "bio": ""
     }],
     "candidates": [{
-        "name": "",
+        "name": "No opposing candidates",
         "party": "",
         "images": "",
         "bio": ""
     }]
 }, {
     "state": "Vermont",
+    "id": "32",
     "senators": [{
         "name": "Patrick Leahy",
         "party": "Democrat",
@@ -1067,13 +1099,14 @@
         "bio": ""
     }],
     "candidates": [{
-        "name": "",
+        "name": "No opposing candidates",
         "party": "",
         "images": "",
         "bio": ""
     }]
 }, {
     "state": "Washington",
+    "id": "33",
     "senators": [{
         "name": "Patty Murray",
         "party": "Democrat",
@@ -1090,6 +1123,7 @@
     }]
 }, {
     "state": "Wisconsin",
+    "id": "34",
     "senators": [{
         "name": "Ron Johnson",
         "party": "Republican",

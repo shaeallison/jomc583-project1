@@ -39,7 +39,11 @@ div.intro{
 .cardcontents{
     border: 1px solid #ddd;
     padding: 5px 10px 5px 10px;
-    height: 270px;
+    height: 225px;
+}
+
+div.cardcontents:hover{
+    background: #ccc;
 }
 
 .playername{
@@ -92,21 +96,16 @@ div.input-group{
     padding-bottom: 10px;
 }
 
-.animate-show {
-  line-height: 20px;
-  opacity: 1;
-  padding: 10px;
-  border: 1px solid black;
-  background: white;
+.modal-backdrop.in{
+    opacity: 0;
 }
 
-.animate-show.ng-hide-add, .animate-show.ng-hide-remove {
-  transition: all linear 0.5s;
+.modal-header{
+    border-bottom: none;
 }
 
-.animate-show.ng-hide {
-  line-height: 0;
-  opacity: 0;
-  padding: 0 10px;
+div.candidatestable{
+    height: 300px;
+    overflow-y: scroll;
 }
 

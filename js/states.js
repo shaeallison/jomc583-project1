@@ -14,7 +14,6 @@ app.controller('StatesController', ['$http', function($http) {
         .error(function(msg) {
             console.log("This request failed.\n" + msg);
         });
-
-
-
+        
 }]);
+
