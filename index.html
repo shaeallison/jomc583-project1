@@ -44,6 +44,7 @@
                             <br/>
                             <div class="playername">Platform Points</div>
                             <div>{{senators.platform}}</div>
+                            <br/>
                         </div>
                         <div class="col-md-4 col-sm-12 col-xs-12">
                             <div class="playername">Opposing Candidates</div>
@@ -99,7 +100,7 @@
                 <option value="Democrat">Democrat</option>
             </select>
             </div>
-            <div class="col-lg-3 col-sm-3 col-xs-12 results">
+            <!-- <div class="col-lg-3 col-sm-3 col-xs-12 results">
             <select class="form-control" ng-model="sortParty">
                 <option value="">Select a party</option>
                 <option value="Republican">Republican</option>
@@ -119,13 +120,13 @@
                 <option value="Republican">Republican</option>
                 <option value="Democrat">Democrat</option>
             </select>  
-            </div>
+            </div> -->
         </div>
                    
         <h2>States with Contested Senators</h2>
         <div class="row">
             
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 playercard" ng-repeat="state in stateCtrl.states | filter: display | filter: sortParty">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 playercard" ng-repeat="state in stateCtrl.states | filter: display | filter: {senators: {party: sortParty}}">
             <div class="cardcontents" data-toggle="modal" data-target="{{'#largeModal' + state.id}}">
             <div class="statename">{{state.state}}</div>
                             

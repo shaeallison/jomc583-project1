@@ -904,7 +904,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Roy_Blunt.jpg",
-        "bio": ""
+        "bio": "Roy Dean Blunt (born January 10, 1950) was the House Minority Whip during the 110th Congress but after the 2008 general elections announced that he would step down from the position.  In 2011, Blunt was elected vice-chairman of the Senate Republican Conference. He and his son are the only Republicans to have served as Missouri Secretary of State since 1945.",
+        "platform": ""
     }],
     "uncontested":[{
        "name": "Claire McCaskill",
@@ -966,7 +967,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Kelly_Ayotte.jpg",
-        "bio": ""
+        "bio": "Kelly Ann Ayotte (born June 27, 1968) s the second youngest of the 20 female Senators, and the twelfth-youngest overall. Ayotte is a graduate of Pennsylvania State University and Villanova University School of Law. In September 2010, Ayotte won a close victory over lawyer Ovide M. Lamontagne in the Republican primary for the U.S. Senate.",
+        "platform": "Simpler, fairer tax code that lowers taxes for families and small businesses. Improving mental health training in schools, supporting local mental health solutions. Prepare our kids for good paying jobs by improving STEM education and manufacturing skills training."
     }],
     "uncontested":[{
        "name": "Jeanne Shaheen",
@@ -989,7 +991,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Chuck_Schumer.jpg",
-        "bio": ""
+        "bio": "Charles Ellis Schumer (born November 23, 1950) was elected in 1998, he defeated three-term Republican incumbent Al D'Amato by a margin of 55%–44%. Before his election to the U.S. Senate, Schumer served in the U.S. House of Representatives from 1981 to 1999. He is a graduate of Harvard College and Harvard Law School, he was a three-term member of the New York State Assembly, serving from 1975 to 1980.",
+        "platform": "Supporting women’s reproductive health care decisions.  Amendment to the Constitution of the United States relating to contributions and expenditures intended to affect elections. "
     }],
     "uncontested":[{
        "name": "Kristen Gillibrand",
@@ -1012,7 +1015,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Richard_Burr.jpg",
-        "bio": ""
+        "bio": "Richard Mauze Burr (born November 30, 1955) worked for seventeen years in private business with Carswell Distributing. He earned a B.A. in Communications from Wake Forest University in 1978. In July 2004, Burr won the Republican primary to seek the U.S. Senate seat being vacated by Democrat John Edwards, who had launched a presidential campaign.",
+        "platform": "Ensure that every North Carolinian has an opportunity to afford college through sensible reforms to federal student aid programs. Follow the example of North Carolinians and begin to make tough choices and prioritize spending decisions. True health care reform that preserves Americans’ control over their own health care decisions."
     }],
     "uncontested":[{
        "name": "Thom Tillis",
@@ -1070,7 +1074,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/John_Hoeven.jpg",
-        "bio": ""
+        "bio": "John Henry Hoeven III (born March 13, 1957) previously served as the 31st Governor of North Dakota from December 2000 to December 2010. Hoeven was elected to the U.S. Senate in the November 2, 2010 general election. He attended Dartmouth College, where he belonged to the Alpha Chi Alpha Fraternity and graduated with honors. He then earned an MBA from the Kellogg School of Management at Northwestern University.",
+        "platform": "Additional revenues should come from tax reform and economic growth, not raising taxes. Empower schools, administrators and teachers to create local strategies that prepare students to succeed in a global, high-tech economy. Create competition among insurance companies by allowing them to offer plans across state lines."
     }],
     "uncontested":[{
        "name": "Heidi Heitkamp",
@@ -1093,7 +1098,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Rob_Portman.jpg",
-        "bio": ""
+        "bio": "Robert Jones Portman (born December 19, 1955) graduated from Dartmouth College and the University of Michigan Law School. He worked briefly in the White House during the first Bush Administration before entering the U.S. House of Representatives. He has been listed as a possible Republican vice presidential candidate in the past two presidential elections.",
+        "platform": "The Jobs for America plan focuses on budget, tax, regulatory, workforce, trade, energy, and health care proposals. Repeal the health care law that passed in 2010, start over, and replace it with proposals that actually reduce costs and increase competition. Reduce deficits through pro-growth policies and keeping federal spending under control."
     }],
     "uncontested":[{
        "name": "Sherrod Brown",
@@ -1146,7 +1152,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/James_Lankford.jpg",
-        "bio": ""
+        "bio": "James Paul Lankford (born March 4, 1968) was the student ministries and evangelism specialist for the Baptist General Convention of Oklahoma.  He stepped down on September 1, 2009, to run for Congress. ",
+        "platform": "Opposition to the Bipartisan Budget Act of 2015. Reauthorize the Elementary and Secondary Education Act and reform No Child Left Behind. A five-year surface transportation reauthorization bill."
     }],
     "uncontested":[{
        "name": "James Inhofe",
@@ -1169,7 +1176,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Ron_Wyden.jpg",
-        "bio": ""
+        "bio": "Ronald Lee Wyden (born May 3, 1949) served in the United States House of Representatives from 1981 to 1996. He attended the University of California, Santa Barbara on a basketball scholarship,[4] and later transferred to Stanford University, where he received his Bachelor of Arts in 1971. He received a Juris Doctor degree from the University of Oregon School of Law in 1974. Ensure workers can get a job that will support their families, build their savings and send their children to college.",
+        "platform": "Student Right to Know Before You Go Act to provide all potential college students with reliable information on what students can expect to make in the workplace. A health care lifeline that benefits us all. "
     }],
     "uncontested":[{
        "name": "Jeff Merkley",
@@ -1192,7 +1200,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Patrick_Toomey.jpg",
-        "bio": ""
+        "bio": "Patrick Joseph Toomey (born November 17, 1961) served as a United States Representative for three terms, from 1999 to 2005, but he did not seek a fourth term in compliance with a pledge he had made while running for office in 1998.",
+        "platform": "Robert Patrick Casey, Sr. (January 9, 1932 – May 30, 2000) he served as the 42nd Governor of Pennsylvania from 1987 to 1995. He previously served as a state senator 1963–68."
     }],
     "uncontested":[{
        "name": "Robert Casey Jr.",
@@ -1230,7 +1239,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Tim_Scott.jpg",
-        "bio": ""
+        "bio": "Timothy Eugene Scott (born September 19, 1965) was appointed as senator in 2013 after South Carolina Governor Nikki Haley named him to fill the U.S. Senate seat vacated by Jim DeMint. Scott is one of two African Americans serving in the United States Senate, the first African American senator from the state of South Carolina, the first black Republican elected to the United States Senate since the defeat of Edward Brooke in 1979, and the first elected from the South since 1881. ",
+        "platform": "Believe that each of us must fight to protect the unborn."
     }],
     "uncontested":[{
        "name": "Lindsey Graham",
@@ -1253,7 +1263,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/John_Thune.jpg",
-        "bio": ""
+        "bio": "John Randolph Thune (born January 7, 1961) previously served as a United States Representative for South Dakota's at-large congressional district. Thune received the degree of Master of Business Administration from the University of South Dakota in 1984. Thune worked as a legislative aide for U.S. Senator James Abdnor from 1985 to 1987.",
+        "platform": "Support education proposals that give schools the necessary resources and flexibility while keeping them accountable to taxpayers, parents, and students. Enact meaningful reforms to strengthen existing programs, and ultimately put our fiscal house back in order. Change our health care focus to wellness and prevention."
     }],
     "uncontested":[{
        "name": "Mike Rounds",
@@ -1276,7 +1287,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Mike_Lee.jpg",
-        "bio": ""
+        "bio": "Michael Shumway Lee (born June 4, 1971) has served in the U.S. Senate since January 3, 2011. Lee is a graduate of Brigham Young University (BYU). Lee began his career as a clerk for the U.S. District Court for the District of Utah before serving as a clerk for future Supreme Court Justice Samuel Alito.",
+        "platform": "Decisions regarding the education of our children are best made at the local level. Start developing a new conservative reform agenda that restores equal opportunity. Tax reform should remove the disincentives for businesses and individuals to be more productive and lead to greater economic growth."
     }],
     "uncontested":[{
        "name": "Orrin Hatch",
@@ -1299,7 +1311,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Patrick_Leahy.jpg",
-        "bio": ""
+        "bio": "Patrick Joseph Leahy (born March 31, 1940) has been in office since 1975. Leahy served as the President pro tempore of the United States Senate from December 17, 2012 to January 6, 2015. He is the most senior senator and took office at a younger age than any other current senator.",
+        "platform": "No student should be denied the opportunities of a college education because of a family’s financial resources. All who require care should have access, regardless of their income or where they live. Grow Vermont’s economy, secure federal contracts for local employers, stimulate economic recovery efforts, develop a dynamic workforce and enhance Vermont’s historic downtowns and transportation systems."
     }],
     "uncontested":[{
        "name": "Bernard Sanders",
@@ -1322,7 +1335,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Patty_Murray.jpg",
-        "bio": ""
+        "bio": "Patricia Lynn Murray (born October 11, 1950) was first elected to the Senate in 1992, becoming Washington's first female senator. Murray has served as the Senate Majority Conference Secretary since 2007, making her the fourth-highest-ranking Democrat and the highest-ranking woman in the Senate.",
+        "platform": "Ensuring the American workforce has the skills and training necessary to remain a world economic leader. Expanding access and affordability to post-secondary education for all students. Ensuring access to mental health coverage and services."
     }],
     "uncontested":[{
        "name": "Maria Cantwell",
@@ -1345,7 +1359,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Ron_Johnson.jpg",
-        "bio": ""
+        "bio": "Ronald Harold Johnson (born April 8, 1955) was chief executive officer of PACUR, LLC, a polyester and plastics manufacturer before being elected Senator. He attended the University of Minnesota while working full-time and graduated in 1977 with a degree in business and accounting.",
+        "platform": "Find a way to give people more flexibility and freedom in their health care choices. Pass a real pro-growth agenda that will promote long term, self-sustaining jobs in the private sector. Move toward more local control and an educational system."
     }],
     "uncontested":[{
        "name": "Tammy Baldwin",
