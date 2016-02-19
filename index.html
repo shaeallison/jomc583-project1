@@ -96,12 +96,19 @@
                 <option value="Democrat">Democrat</option>
             </select>
             </div>
+            <div class="col-lg-3 col-sm-3 col-xs-12 results">
+            <select class="form-control" ng-model="sortRunning">
+                <option value="">Running in 2016?</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            </div>
         </div>
                    
         <h2>States with Contested Senators</h2>
         <div class="row">
             
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 playercard" ng-repeat="state in stateCtrl.states | filter: display | filter: {senators: {party: sortParty}}">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 playercard" ng-repeat="state in stateCtrl.states | filter: display | filter: {senators: {party: sortParty}} | filter: {senators: {running: sortRunning}}">
             <div class="cardcontents" data-toggle="modal" data-target="{{'#largeModal' + state.id}}">
             <div class="statename">{{state.state}}</div>
                             
@@ -110,8 +117,6 @@
                 <div class="playername">{{senators.name}}</div>
                 <div class="row">
                     <div class="party"><strong>{{senators.party}}</strong></div>
-                    <br/>
-                    <div><strong>Running in 2016:</strong> {{senators.running}}</div>
                 </div>
             </div>
             </div>
