@@ -7,13 +7,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Richard_Shelby.jpg",
-        "bio": "",
-        "platform": [{
-            "point1": "",
-            "point2": "",
-            "point3": ""
-
-        }]
+        "bio": "Richard Craig Shelby (born May 6, 1934) was first elected in 1986. He is the Chairman of the United States Senate Committee on Banking, Housing and Urban Affairs. Originally from Birmingham, Alabama, Shelby studied law at the Birmingham School of Law. He has served as city prosecutor and worked as a U.S. Magistrate for the Northern District of Alabama.",
+        "platform": "Make education decisions at the local level. Require a balanced budget. Make insurance more portable, expand health savings accounts, reduce frivolous lawsuits, and emphasize preventive care."
     }],
     "uncontested": [{
        "name": "Jeff Sessions",
@@ -61,7 +56,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Lisa_Murkowski.jpg",
-        "bio": ""
+        "bio": "Lisa Ann Murkowski (born May 22, 1957) has served in the Senate since 2002. She became the state's senior senator when Ted Stevens retired in 2009. Murkowski served in the House and was eventually elected majority leader.",
+        "platform": "Fixing one-size-fits-all education mandates from Washington, D.C. Smart spending reductions are needed to target the nation’s growing, unsustainable debt while avoiding future sequestration scenario. Ensuring that all Alaskans have access to affordable, quality health care "
     }],
     "uncontested":[{
        "name": "Daniel Sullivan",
@@ -84,7 +80,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/John_McCain.jpg",
-        "bio": ""
+        "bio": "Sidney McCain III (born August 29, 1936) was the Republican presidential nominee in the 2008 United States presidential election. McCain was in the United States Navy and became a naval aviator, flying ground-attack aircraft from aircraft carriers. He retired from the Navy as a captain in 1981 and moved to Arizona, where he entered politics.",
+        "platform": "Insists upon responsible federal budgeting in order to fully enable Americans to pursue financial success. Education is the key to building a strong and competitive workforce in a global economy. Meet the American public’s continuing need for quality health care at an affordable cost."
     }],
     "uncontested": [{
        "name": "Jeff Flake",
@@ -122,7 +119,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/John_Boozman.jpg",
-        "bio": ""
+        "bio": "John Nichols Boozman (born December 10, 1950) attended the University of Arkansas, where he played football for the Arkansas Razorbacks, and graduated from the Southern College of Optometry. He won a special election in 2002 to the United States House of Representatives, where he served as assistant majority whip and sat on the Republican Policy Committee. Boozman was elected to the United States Senate in 2010.",
+        "platform": "Institute a Balanced Budget Amendment, that will stop the government from spending beyond its means. Introducing portability to the market to ensure you don’t have to change your insurance just because you change your job. We must look to forward-thinking solutions to our problem with illegal immigration, not the failed policies of the past."
     }],
     "uncontested":[{
        "name": "Tom Cotton",
@@ -160,7 +158,8 @@
         "status": "Contested",
         "running": "no",
         "images": "../img/Barbara_Boxer.jpg",
-        "bio": ""
+        "bio": "Barbara Levy Boxer (born November 11, 1940) was elected senator in 1993. Boxer previously served in the U.S. House of Representatives. Boxer graduated from Brooklyn College. She worked as a stockbroker for several years before moving to California with her husband. Boxer won the 1992 election for the U.S. Senate. She previously held the record for the most popular votes in any U.S. Senate election in history, having received 6.96 million votes in her 2004 re-election.",
+        "platform": "Not running for re-election."
     }],
     "uncontested": [{
        "name": "Dianne Feinstein",
@@ -238,7 +237,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Michael_Bennet.jpg",
-        "bio": ""
+        "bio": "Michael Farrand Bennet (born November 28, 1964) worked as a Senate page on Capitol Hill in high school. He went on to receive his law degree from Yale Law School, where he was the Editor-in-Chief of the Yale Law Journal. Bennet was elected in the 2010 Senate election where he defeated Republican Ken Buck",
+        "platform": "Innovations should come from the classrooms and communities that are closer to our kids rather than from the lawmakers in Washington. Start making the tough decisions necessary to put our nation's fiscal house in order. Ensure that the law is enacted effectively and responsibly regarding the Affordable Care Act."
     }],
     "uncontested": [{
        "name": "Cory Gardner",
@@ -311,7 +311,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Richard_Blumenthal.jpg",
-        "bio": ""
+        "bio": "Richard Blumenthal (born February 13, 1946) served as Attorney General of Connecticut from 1991 to 2011. Blumenthal is a graduate of Harvard College, where he was editorial chairman of The Harvard Crimson. He later attended Yale Law School, where he was editor-in-chief of the Yale Law Journal.",
+        "platform": "Alleviate student loan debt from graduates. Increasing access to safe and affordable prescription drugs. Support efforts to end wasteful and unnecessary tax subsidies for oil and gas companies and agree we should redirect that money to support the development of clean, renewable sources of energy."
     }],
     "uncontested":[{
        "name": "Christopher Murphy",
@@ -334,7 +335,8 @@
         "status": "Contested",
         "running": "no",
         "images": "../img/Marco_Rubio.jpg",
-        "bio": ""
+        "bio": "Marco Antonio Rubio (born May 28, 1971) previously served as Speaker of the Florida House of Representatives. He is currently a candidate for the Republican nomination for President of the United States, in the 2016 presidential election. Rubio ran for United States Senate in 2010, and won that election.",
+        "platform": "Not running for re-election"
     }],
     "uncontested": [{
        "name": "Bill Nelson",
@@ -402,7 +404,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Johnny_Isakson.jpg",
-        "bio": ""
+        "bio": "John Hardy Isakson (born December 28, 1944) served in the Georgia Air National Guard (1966–1972) and graduated from the University of Georgia. After 6th District Congressman and Speaker of the House Newt Gingrich resigned, Isakson ran in the February 1999 special election to succeed him, winning by a 40-point margin. He is serving his second term after re-election to the Senate in 2010. He became the senior Senator when Saxby Chambliss retired in 2015.",
+        "platform": "We must make a budget and cut spending. Support federal assistance programs that help make higher education affordable. The key to health care reform is stimulating competition in a market-based system."
     }],
     "uncontested":[{
        "name": "David Perdue",
@@ -425,7 +428,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Brian_Schatz.jpg",
-        "bio": ""
+        "bio": "Brian Emanuel Schatz (born October 20, 1972) served in the Hawaii House of Representatives from 1998 to 2006. He also worked as chief executive officer of Helping Hands Hawaii, an Oahu nonprofit social service agency, until he resigned to run for Lieutenant Governor of Hawaii in the 2010 Hawaii gubernatorial election as the running mate of Neil Abercrombie. Upon his swearing-in, Schatz was the youngest U.S. Senator in the 112th Congress. In the current congress, he is fourth.",
+        "platform": "Expand early childhood education, giving nationally-recognized programs the resources to reach more low-income and underserved children. Expanding access to health care for every family, and to making the Affordable Care Act work successfully. Support vital funding for federal small business programs."
     }],
     "uncontested":[{
        "name": "Mazie Hirono",
@@ -448,7 +452,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Mike_Crapo.jpg",
-        "bio": ""
+        "bio": "Michael Dean Crapo (born May 20, 1951) is a graduate of Brigham Young University and Harvard Law School. Prompted by his brother's death, Crapo successfully ran for the Idaho Senate in 1984. He ran for the open seat in the U.S. Senate in 1998, vacated when Dirk Kempthorne successfully ran for governor. Crapo was elected with 70% of the vote, and became the first Mormon to represent Idaho in the Senate. ",
+        "platform": "Support the Gang of Six efforts and co-sponsored the Cut, Cap and Balance bill in the Senate. Preserve decision-making authority for states, local communities and especially local school boards. Promoting quality care for all citizens must remain a priority of the 114th Congress."
     }],
     "uncontested":[{
        "name": "James Risch",
@@ -471,7 +476,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Mark_Kirk.jpg",
-        "bio": ""
+        "bio": "Mark Steven Kirk (born September 15, 1959) Kirk is a social moderate and fiscal conservative. Born in Champaign, Illinois, he graduated from Cornell University, the London School of Economics, and Georgetown University Law Center. January 2012, Kirk suffered a stroke,[6] and a full year passed before he returned to his congressional duties.",
+        "platform": "Important to do the work needed to reduce spending and balance the books so that we restore the vitality of a free people. Continue the great American tradition of standing up for human rights. Support the Balanced Budget Amendment to the Constitution, which will legally ensure that the Government keeps its spending under control."
     }],
     "uncontested":[{
        "name": "Richard Durbin",
@@ -514,7 +520,8 @@
         "status": "Contested",
         "running": "no",
         "images": "../img/Daniel_Coats.jpg",
-        "bio": ""
+        "bio": "Daniel Ray Coats (born May 16, 1943) He was in the United States Senate from 1989 to 1999, retired, and then returned in 2011. Coats graduated from Wheaton College in Illinois and Indiana University Robert H. McKinney School of Law. He served in the U.S. Army from 1966 to 1968. After retiring from the Senate, Coats served as U.S. Ambassador to Germany from 2001 to 2005, and then worked as a lobbyist in Washington, D.C. He was re-elected to the Senate by a large margin in 2010.",
+        "platform": "Not running for re-election."
     }],
     "uncontested":[{
        "name": "Joe Donnelly",
@@ -547,7 +554,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Chuck_Grassley.jpg",
-        "bio": ""
+        "bio": "Charles Ernest Grassley (born September 17, 1933) is the current chairman of the Judiciary Committee of the 114th congress. He was chairman of the Senate Finance Committee from January to June 2001 and from January 2003 to December 2006. Grassley previously served in the United States House of Representatives (1975–1981) and the Iowa state legislature (1959–1974). ",
+        "platform": "Favors spending reductions to manage the deficit. Tax incentives to make higher education accessible and affordable for all students who want to pursue an advanced degree. A health policy that helps individuals afford coverage; promotes wellness, preventive care and disease management; takes into account the financial impact on employers, small businesses and taxpayers."
     }],
     "uncontested":[{
        "name": "Joni Ernst",
@@ -580,7 +588,8 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Jerry_Moran.jpg",
-        "bio": ""
+        "bio": "Gerald W. Moran (born May 29, 1954) served as Chairman of the National Republican Senatorial Committee for the 113th U.S. Congress, during which he led successful Republican efforts in United States Senate elections, 2014, producing the first Republican Senate majority since 2006. Moran graduated from the University of Kansas and the University of Kansas School of Law. He worked in private law and served as the state special assistant attorney general (1982–85). He was elected to the U.S. Senate in 2010.",
+        "platform": "Increase the number of qualified teachers in classrooms and maintain flexibility for state. Advance public health innovations, including development of new medicines, medical devices and food safety technology. Opposing reckless spending and working to address our country's economic problems in a fiscally responsible way."
     }],
     "uncontested":[{
        "name": "Pat Roberts",
@@ -601,9 +610,10 @@
         "name": "Rand Paul",
         "party": "Republican",
         "status": "Contested",
-        "running": "yes",
+        "running": "no",
         "images": "../img/Rand_Paul.jpg",
-        "bio": ""
+        "bio": "Randal Howard Paul (born January 7, 1963) is the son of former U.S. Representative Ron Paul of Texas. Paul attended Baylor University and is a graduate of the Duke University School of Medicine. Paul entered politics by running for a seat in the United States Senate. Paul has described himself as a Constitutional conservative and a supporter of the Tea Party movement.",
+        "platform": "Not running for re-election" 
     }],
     "uncontested":[{
        "name": "Mitch McConnel",
@@ -666,7 +676,8 @@
         "status": "Contested",
         "running": "no",
         "images": "../img/David_Vitter.jpg",
-        "bio": ""
+        "bio": "David Bruce Vitter (born May 3, 1961) served in the United States House of Representatives, representing the suburban Louisiana's 1st congressional district. He won a second Senate term in 2010. Vitter announced that he would not seek reelection to his Senate seat in 2016 and would retire from the Senate at the completion of his term.",
+        "platform": "Not running for re-election."
     }],
     "uncontested":[{
        "name": "Bill Cassidy",
@@ -719,7 +730,8 @@
         "status": "Contested",
         "running": "no",
         "images": "../img/Barbara_Mikulski.jpg",
-        "bio": ""
+        "bio": "Barbara Ann Mikulski (born July 20, 1936) has served in the Senate since 1987. Mikulski, who served in the United States House of Representatives from 1977 to 1987, is the longest-serving woman in the history of the United States Congress. Mikulski attended Mount Saint Agnes College and the University of Maryland School of Social Work. She is now the ranking minority member. ",
+        "platform": "Not running for re-election."
     }],
     "uncontested":[{
        "name": "Benjamin Cardin",
@@ -925,7 +937,8 @@
         "status": "Contested",
         "running": "no",
         "images": "../img/Harry_Reid.jpg",
-        "bio": ""
+        "bio": "Harry Mason Reid (born December 2, 1939) has served in the senate from 1987. Reid is one of only three Senators to serve at least eight years as Majority Leader. Reid formally announced on March 27, 2015 that he will retire at the end of his current term on January 3, 2017, saying that his recent injuries and subsequent recovery had nothing to do with his decision.",
+        "platform": "Not running for re-election."
     }],
     "uncontested":[{
        "name": "Dean Heller",

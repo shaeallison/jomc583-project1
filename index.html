@@ -34,19 +34,18 @@
               <div class="modal-body" ng-repeat="senators in state.senators">
                 <div class="modalinfo">
                     <div class="row">
-                        <div class="col-sm-3">
+                        <div class="col-md-3 col-sm-12 col-xs-12">
                             <div class="playername">{{senators.name}}</div>
                             <img class="modalpics" ng-src="{{senators.images}}"/>
                         </div>
-                        <div class="col-sm-5">
-                            <div class="playername">Platform Points/bio??</div>
-                            <ul>
-                                <li>point 1</li>
-                                <li>point 2</li>
-                                <li>point 3</li>
-                            </ul>
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                            <div class="playername">Biography</div>
+                            <div class="bio">{{senators.bio}}</div>
+                            <br/>
+                            <div class="playername">Platform Points</div>
+                            <div>{{senators.platform}}</div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-md-4 col-sm-12 col-xs-12">
                             <div class="playername">Opposing Candidates</div>
                             <div class="candidatestable">
                             <table class="table table-striped">
@@ -92,12 +91,35 @@
         
         <h4>Narrow your results</h4>
         
-        <div class="nav">
+        <div class="row">
+            <div class="col-lg-3 col-sm-3 col-xs-12 results">
             <select class="form-control" ng-model="sortParty">
                 <option value="">Select a party</option>
                 <option value="Republican">Republican</option>
                 <option value="Democrat">Democrat</option>
             </select>
+            </div>
+            <div class="col-lg-3 col-sm-3 col-xs-12 results">
+            <select class="form-control" ng-model="sortParty">
+                <option value="">Select a party</option>
+                <option value="Republican">Republican</option>
+                <option value="Democrat">Democrat</option>
+            </select>  
+            </div>
+            <div class="col-lg-3 col-sm-3 col-xs-12 results">
+            <select class="form-control" ng-model="sortParty">
+                <option value="">Select a party</option>
+                <option value="Republican">Republican</option>
+                <option value="Democrat">Democrat</option>
+            </select>
+            </div>
+            <div class="col-lg-3 col-sm-3 col-xs-12 results">
+            <select class="form-control" ng-model="sortParty">
+                <option value="">Select a party</option>
+                <option value="Republican">Republican</option>
+                <option value="Democrat">Democrat</option>
+            </select>  
+            </div>
         </div>
                    
         <h2>States with Contested Senators</h2>
@@ -123,7 +145,14 @@
         <div ng-controller="OthersController as otherCtrl">
         <h2>States with no Contested Senators</h2>
         <div class="row">
-            <table class="table uncontestedtable">
+            <table class="table table-striped uncontestedtable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>State</th>
+                        <th>Party</th>
+                    </tr>
+                </thead>
                 <tr ng-repeat="others in otherCtrl.others">
                     <td>{{others.name}}</td>
                     <td>{{others.state}}</td>

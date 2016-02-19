@@ -96,6 +96,11 @@ div.input-group{
     padding-bottom: 10px;
 }
 
+div.col-lg-3.col-sm-3.col-xs-12.results{
+    padding-left: 0px;
+    padding-right: 5px;
+}
+
 div.modal-backdrop.fade.in{
     display: none;
 }
