@@ -65,7 +65,7 @@ div.cardcontents:hover{
 .statename{
     margin-top: 2px;
     font-size: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
 }
 
 .currentsenator{
@@ -96,16 +96,54 @@ div.input-group{
     padding-bottom: 10px;
 }
 
-.modal-backdrop.in{
-    opacity: 0;
+div.modal-backdrop.fade.in{
+    display: none;
 }
 
 .modal-header{
     border-bottom: none;
+    padding-bottom: none;
+    padding-left: 26px;
+}
+
+div.modal-body{
+    padding-top: 0px;
+    margin-top: -15px;
+}
+
+div.modal-content{
+    border-radius: 0px;
+    border: none;
 }
 
 div.candidatestable{
-    height: 300px;
+    max-height: 300px;
     overflow-y: scroll;
 }
+
+.modalpics{
+    float: left;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    width: 200px;
+}
+
+.uncontestedtable{
+    text-align: left;
+}
+
+div.scroll{
+   height: 300px;
+    overflow-y: scroll; 
+}
+
+table.uncontestedtable tr td{
+    width: 100px;
+}
+
+div.scroll.ng-scope{
+    display: hidden;
+}
+
+
 

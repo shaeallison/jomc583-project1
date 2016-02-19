@@ -10,6 +10,7 @@
         <!-- script -->
         <script type="text/javascript" src="js/app.js"></script>
         <script type="text/javascript" src="js/states.js"></script>
+        <script type="text/javascript" src="js/otherstates.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
         <!-- css -->
@@ -20,6 +21,7 @@
     <body ng-app="myApp" ng-controller="BaseController as base">
         
         <div class="wrapper" ng-controller="StatesController as stateCtrl">
+        
         
         <!-- modal content -->
         <div class="modal fade" ng-repeat="state in stateCtrl.states" id="{{'largeModal' + state.id}}"" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
@@ -32,11 +34,11 @@
               <div class="modal-body" ng-repeat="senators in state.senators">
                 <div class="modalinfo">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-sm-3">
                             <div class="playername">{{senators.name}}</div>
-                            <img class="playerpics" ng-src="{{senators.images}}"/>
+                            <img class="modalpics" ng-src="{{senators.images}}"/>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-5">
                             <div class="playername">Platform Points/bio??</div>
                             <ul>
                                 <li>point 1</li>
@@ -45,11 +47,17 @@
                             </ul>
                         </div>
                         <div class="col-sm-4">
-                            <div class="playername">Candidates</div>
+                            <div class="playername">Opposing Candidates</div>
                             <div class="candidatestable">
                             <table class="table table-striped">
                                 <tr ng-repeat="candidates in state.candidates">
                                     <td>{{candidates.name + " " + candidates.party}}</td>
+                                </tr>
+                            </table>
+                            <div class="playername">Uncontested Senator of {{state.state}}</div>
+                            <table class="table table-striped" ng-repeat="uncontested in state.uncontested">
+                                <tr>
+                                    <td>{{uncontested.name + " " + uncontested.party}}</td>
                                 </tr>
                             </table>
                             </div>
@@ -75,24 +83,27 @@
                 mi, at consectetur magna finibus quis. Mauris libero arcu, faucibus ac felis ut, sodales condimentum arcu. Integer fermentum eros eu
                 tortor placerat porttitor.
             </div>
+        
             
             <div class="input-group col-lg-3 carddisplay">
                 <input type="text" ng-model="display" class="form-control carddisplay" placeholder="Search" name="q">
             </div>
         </div>
         
+        <h4>Narrow your results</h4>
+        
         <div class="nav">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <select class="form-control" ng-model="sortParty">
+                <option value="">Select a party</option>
+                <option value="Republican">Republican</option>
+                <option value="Democrat">Democrat</option>
+            </select>
         </div>
                    
-        <h2>Contested Senators</h2>
+        <h2>States with Contested Senators</h2>
         <div class="row">
             
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 playercard" ng-repeat="state in stateCtrl.states | filter: display">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 playercard" ng-repeat="state in stateCtrl.states | filter: display | filter: sortParty">
             <div class="cardcontents" data-toggle="modal" data-target="{{'#largeModal' + state.id}}">
             <div class="statename">{{state.state}}</div>
                             
@@ -105,25 +116,26 @@
                     <div><strong>Running in 2016:</strong> {{senators.running}}</div>
                 </div>
             </div>
-            <!-- candidates table won't need with modal
-                <table class="table table-striped">
-                        <tr>
-                            <th class="running"><div ng-click="showlist = !showlist">Show Candidates</div></th>
-                        </tr>
-                        <tr ng-show="showlist" ng-repeat="candidates in state.candidates">
-                            <td>{{candidates.name + " | " + candidates.party}}</td>
-                        </tr>
-                </table>
-             -->
-           
             </div>
-        </div>
-        <!-- end of cards -->
+        </div><!-- end of cards -->
+        </div> <!-- row close -->
         
-
-        </div> <!--ctrl row close -->
+        <div ng-controller="OthersController as otherCtrl">
+        <h2>States with no Contested Senators</h2>
+        <div class="row">
+            <table class="table uncontestedtable">
+                <tr ng-repeat="others in otherCtrl.others">
+                    <td>{{others.name}}</td>
+                    <td>{{others.state}}</td>
+                    <td>{{others.party}}</td>
+                </tr>
+            </table>
+        </div>
+        </div> <!-- other ctrl -->
+        </div> <!--row close -->
+        </div> <!-- end of wrapper -->
         </div> <!-- container close -->
+       
         
-        </div>
     </body>
 </html>

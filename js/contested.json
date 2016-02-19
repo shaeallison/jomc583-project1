@@ -7,7 +7,19 @@
         "status": "Contested",
         "running": "yes",
         "images": "../img/Richard_Shelby.jpg",
-        "bio": ""
+        "bio": "",
+        "platform": [{
+            "point1": "",
+            "point2": "",
+            "point3": ""
+
+        }]
+    }],
+    "uncontested": [{
+       "name": "Jeff Sessions",
+        "state": "Alabama",
+        "party": "Republican",
+        "status": "Uncontested" 
     }],
     "candidates": [{
             "name": "Marcus Bowman",
@@ -39,9 +51,7 @@
             "party": "Democrat",
             "images": "",
             "bio": ""
-        }
-
-    ]
+        }]
 }, {
     "state": "Alaska",
     "id": "2",
@@ -52,6 +62,12 @@
         "running": "yes",
         "images": "../img/Lisa_Murkowski.jpg",
         "bio": ""
+    }],
+    "uncontested":[{
+       "name": "Daniel Sullivan",
+        "state": "Alaska",
+        "party": "Republican",
+        "status": "Uncontested" 
     }],
     "candidates": [{
         "name": "No opposing candidates",
@@ -69,6 +85,12 @@
         "running": "yes",
         "images": "../img/John_McCain.jpg",
         "bio": ""
+    }],
+    "uncontested": [{
+       "name": "Jeff Flake",
+        "state": "Arizona",
+        "party": "Republican",
+        "status": "Uncontested" 
     }],
     "candidates": [{
         "name": "Ann Kirkpatrick",
@@ -102,6 +124,12 @@
         "images": "../img/John_Boozman.jpg",
         "bio": ""
     }],
+    "uncontested":[{
+       "name": "Tom Cotton",
+        "state": "Arkansas",
+        "party": "Republican",
+        "status": "Uncontested" 
+    }],
     "candidates": [{
         "name": "Curtis Coleman",
         "party": "Republican",
@@ -133,6 +161,12 @@
         "running": "no",
         "images": "../img/Barbara_Boxer.jpg",
         "bio": ""
+    }],
+    "uncontested": [{
+       "name": "Dianne Feinstein",
+        "state": "California",
+        "party": "Democrat",
+        "status": "Uncontested" 
     }],
     "candidates": [{
         "name": "Akinyemi Agbede",
@@ -206,6 +240,12 @@
         "images": "../img/Michael_Bennet.jpg",
         "bio": ""
     }],
+    "uncontested": [{
+       "name": "Cory Gardner",
+        "state": "Colorado",
+        "party": "Republican",
+        "status": "Uncontested" 
+    }],
     "candidates": [{
         "name": "Robert Blaha",
         "party": "Republican",
@@ -273,6 +313,12 @@
         "images": "../img/Richard_Blumenthal.jpg",
         "bio": ""
     }],
+    "uncontested":[{
+       "name": "Christopher Murphy",
+        "state": "Connecticut",
+        "party": "Democrat",
+        "status": "Uncontested" 
+    }],
     "candidates": [{
         "name": "August Wolf",
         "party": "Republican",
@@ -289,6 +335,12 @@
         "running": "no",
         "images": "../img/Marco_Rubio.jpg",
         "bio": ""
+    }],
+    "uncontested": [{
+       "name": "Bill Nelson",
+        "state": "Florida",
+        "party": "Democrat",
+        "status": "Uncontested" 
     }],
     "candidates": [{
         "name": "Ron DeSantis",
@@ -352,6 +404,12 @@
         "images": "../img/Johnny_Isakson.jpg",
         "bio": ""
     }],
+    "uncontested":[{
+       "name": "David Perdue",
+        "state": "Georgia",
+        "party": "Republican",
+        "status": "Uncontested" 
+    }],
     "candidates": [{
         "name": "No opposing candidates",
         "party": "",
@@ -368,6 +426,12 @@
         "running": "yes",
         "images": "../img/Brian_Schatz.jpg",
         "bio": ""
+    }],
+    "uncontested":[{
+       "name": "Mazie Hirono",
+        "state": "Hawaii",
+        "party": "Democrat",
+        "status": "Uncontested" 
     }],
     "candidates": [{
         "name": "No opposing candidates",
@@ -386,6 +450,12 @@
         "images": "../img/Mike_Crapo.jpg",
         "bio": ""
     }],
+    "uncontested":[{
+       "name": "James Risch",
+        "state": "Idaho",
+        "party": "Republican",
+        "status": "Uncontested" 
+    }],
     "candidates": [{
         "name": "No opposing candidates",
         "party": "",
@@ -402,6 +472,12 @@
         "running": "yes",
         "images": "../img/Mark_Kirk.jpg",
         "bio": ""
+    }],
+    "uncontested":[{
+       "name": "Richard Durbin",
+        "state": "Illinois",
+        "party": "Democrat",
+        "status": "Uncontested" 
     }],
     "candidates": [{
         "name": "Chris Aguayo",
@@ -440,6 +516,12 @@
         "images": "../img/Daniel_Coats.jpg",
         "bio": ""
     }],
+    "uncontested":[{
+       "name": "Joe Donnelly",
+        "state": "Indiana",
+        "party": "Democrat",
+        "status": "NUncontested" 
+    }],
     "candidates": [{
         "name": "Baron Hill",
         "party": "Democrat",
@@ -466,6 +548,12 @@
         "running": "yes",
         "images": "../img/Chuck_Grassley.jpg",
         "bio": ""
+    }],
+    "uncontested":[{
+       "name": "Joni Ernst",
+        "state": "Iowa",
+        "party": "Republican",
+        "status": "Uncontested" 
     }],
     "candidates": [{
         "name": "Tom Fiegen",
@@ -494,6 +582,12 @@
         "images": "../img/Jerry_Moran.jpg",
         "bio": ""
     }],
+    "uncontested":[{
+       "name": "Pat Roberts",
+        "state": "Kansas",
+        "party": "Republican",
+        "status": "Uncontested" 
+    }],
     "candidates": [{
         "name": "No opposing candidates",
         "party": "",
@@ -510,6 +604,12 @@
         "running": "yes",
         "images": "../img/Rand_Paul.jpg",
         "bio": ""
+    }],
+    "uncontested":[{
+       "name": "Mitch McConnel",
+        "state": "Kentucky",
+        "party": "Republican",
+        "status": "Uncontested" 
     }],
     "candidates": [{
         "name": "James Gould",
@@ -568,6 +668,12 @@
         "images": "../img/David_Vitter.jpg",
         "bio": ""
     }],
+    "uncontested":[{
+       "name": "Bill Cassidy",
+        "state": "Louisiana",
+        "party": "Republican",
+        "status": "Uncontested" 
+    }],
     "candidates": [{
         "name": "Charles Boustany Jr.",
         "party": "Republican",
@@ -614,6 +720,12 @@
         "running": "no",
         "images": "../img/Barbara_Mikulski.jpg",
         "bio": ""
+    }],
+    "uncontested":[{
+       "name": "Benjamin Cardin",
+        "state": "Maryland",
+        "party": "Democrat",
+        "status": "Uncontested" 
     }],
     "candidates": [{
         "name": "Chris Chaffee",
@@ -782,6 +894,12 @@
         "images": "../img/Roy_Blunt.jpg",
         "bio": ""
     }],
+    "uncontested":[{
+       "name": "Claire McCaskill",
+        "state": "Missouri",
+        "party": "Democrat",
+        "status": "Uncontested" 
+    }],
     "candidates": [{
         "name": "MD Rabbi Alam",
         "party": "Democrat",
@@ -809,6 +927,12 @@
         "images": "../img/Harry_Reid.jpg",
         "bio": ""
     }],
+    "uncontested":[{
+       "name": "Dean Heller",
+        "state": "Nevada",
+        "party": "Republican",
+        "status": "Uncontested" 
+    }],
     "candidates": [{
         "name": "Joe Heck",
         "party": "Republican",
@@ -831,6 +955,12 @@
         "images": "../img/Kelly_Ayotte.jpg",
         "bio": ""
     }],
+    "uncontested":[{
+       "name": "Jeanne Shaheen",
+        "state": "New Hampshire",
+        "party": "Democrat",
+        "status": "Uncontested" 
+    }],
     "candidates": [{
         "name": "Maggie Hassan",
         "party": "Democratic",
@@ -848,6 +978,12 @@
         "images": "../img/Chuck_Schumer.jpg",
         "bio": ""
     }],
+    "uncontested":[{
+       "name": "Kristen Gillibrand",
+        "state": "New York",
+        "party": "Democrat",
+        "status": "Uncontested" 
+    }],
     "candidates": [{
         "name": "No opposing candidates",
         "party": "",
@@ -864,6 +1000,12 @@
         "running": "yes",
         "images": "../img/Richard_Burr.jpg",
         "bio": ""
+    }],
+    "uncontested":[{
+       "name": "Thom Tillis",
+        "state": "North Carolina",
+        "party": "Republican",
+        "status": "Uncontested" 
     }],
     "candidates": [{
         "name": "Greg Brannon",
@@ -917,6 +1059,12 @@
         "images": "../img/John_Hoeven.jpg",
         "bio": ""
     }],
+    "uncontested":[{
+       "name": "Heidi Heitkamp",
+        "state": "North Dakota",
+        "party": "Democrat",
+        "status": "Uncontested" 
+    }],
     "candidates": [{
         "name": "No opposing candidates",
         "party": "",
@@ -933,6 +1081,12 @@
         "running": "yes",
         "images": "../img/Rob_Portman.jpg",
         "bio": ""
+    }],
+    "uncontested":[{
+       "name": "Sherrod Brown",
+        "state": "Ohio",
+        "party": "Democrat",
+        "status": "Uncontested" 
     }],
     "candidates": [{
         "name": "Thomas William Connors",
@@ -981,6 +1135,12 @@
         "images": "../img/James_Lankford.jpg",
         "bio": ""
     }],
+    "uncontested":[{
+       "name": "James Inhofe",
+        "state": "Oklahoma",
+        "party": "Republican",
+        "status": "Uncontested" 
+    }],
     "candidates": [{
         "name": "No opposing candidates",
         "party": "",
@@ -998,6 +1158,12 @@
         "images": "../img/Ron_Wyden.jpg",
         "bio": ""
     }],
+    "uncontested":[{
+       "name": "Jeff Merkley",
+        "state": "Oregon",
+        "party": "Democrat",
+        "status": "Uncontested" 
+    }],
     "candidates": [{
         "name": "Kevin Stine",
         "party": "Democrat",
@@ -1014,6 +1180,12 @@
         "running": "yes",
         "images": "../img/Patrick_Toomey.jpg",
         "bio": ""
+    }],
+    "uncontested":[{
+       "name": "Robert Casey Jr.",
+        "state": "Pennsylvania ",
+        "party": "Democrat",
+        "status": "Uncontested" 
     }],
     "candidates": [{
         "name": "John Fetterman",
@@ -1047,6 +1219,12 @@
         "images": "../img/Tim_Scott.jpg",
         "bio": ""
     }],
+    "uncontested":[{
+       "name": "Lindsey Graham",
+        "state": "South Carolina",
+        "party": "Republican",
+        "status": "Uncontested" 
+    }],
     "candidates": [{
         "name": "No opposing candidates",
         "party": "",
@@ -1063,6 +1241,12 @@
         "running": "yes",
         "images": "../img/John_Thune.jpg",
         "bio": ""
+    }],
+    "uncontested":[{
+       "name": "Mike Rounds",
+        "state": "South Dakota",
+        "party": "Republican",
+        "status": "Uncontested" 
     }],
     "candidates": [{
         "name": "No opposing candidates",
@@ -1081,6 +1265,12 @@
         "images": "../img/Mike_Lee.jpg",
         "bio": ""
     }],
+    "uncontested":[{
+       "name": "Orrin Hatch",
+        "state": "Utah",
+        "party": "Republican",
+        "status": "Uncontested" 
+    }],
     "candidates": [{
         "name": "No opposing candidates",
         "party": "",
@@ -1097,6 +1287,12 @@
         "running": "yes",
         "images": "../img/Patrick_Leahy.jpg",
         "bio": ""
+    }],
+    "uncontested":[{
+       "name": "Bernard Sanders",
+        "state": "Vermont",
+        "party": "Independent",
+        "status": "Uncontested" 
     }],
     "candidates": [{
         "name": "No opposing candidates",
@@ -1115,6 +1311,12 @@
         "images": "../img/Patty_Murray.jpg",
         "bio": ""
     }],
+    "uncontested":[{
+       "name": "Maria Cantwell",
+        "state": "Washington",
+        "party": "Democrat",
+        "status": "Uncontested" 
+    }],
     "candidates": [{
         "name": "Chris Vance",
         "party": "Republican",
@@ -1131,6 +1333,12 @@
         "running": "yes",
         "images": "../img/Ron_Johnson.jpg",
         "bio": ""
+    }],
+    "uncontested":[{
+       "name": "Tammy Baldwin",
+        "state": "Wisconsin",
+        "party": "Democrat",
+        "status": "Uncontested" 
     }],
     "candidates": [{
         "name": "Phil Anderson",
