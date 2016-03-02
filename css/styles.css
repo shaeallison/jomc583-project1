@@ -101,9 +101,6 @@ div.col-lg-3.col-sm-3.col-xs-12.results{
     padding-right: 5px;
 }
 
-div.modal-backdrop.fade.in{
-    display: none;
-}
 
 .modal-header{
     border-bottom: none;
@@ -148,6 +145,10 @@ table.uncontestedtable tr td{
 
 div.scroll.ng-scope{
     display: hidden;
+}
+
+.modal-backdrop{
+    z-index: 0;
 }
 
 
